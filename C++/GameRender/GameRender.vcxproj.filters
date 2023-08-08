@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="DrawEnv\SkyRender.h">
+      <Filter>DrawEnv</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawEnv\RenderTessTerrain.h">
+      <Filter>DrawEnv</Filter>
+    </ClInclude>
+    <ClInclude Include="Character\Player\Player.h">
+      <Filter>Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawEnv\DrawTerrain.h">
+      <Filter>DrawEnv</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DrawEnv\SkyRender.cpp">
+      <Filter>DrawEnv</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawEnv\RenderTessTerrain.cpp">
+      <Filter>DrawEnv</Filter>
+    </ClCompile>
+    <ClCompile Include="Character\Player\Player.cpp">
+      <Filter>Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawEnv\DrawTerrain.cpp">
+      <Filter>DrawEnv</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DrawEnv">
+      <UniqueIdentifier>{e4aa43e8-f527-4241-b363-0e4eb6272bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character">
+      <UniqueIdentifier>{ede09801-c9c1-4c64-852a-1e73c6962630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Player">
+      <UniqueIdentifier>{bf32035e-3b2b-4ee9-8ca3-aef1975fdd6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
